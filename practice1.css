@@ -1,0 +1,88 @@
+body{
+    background-image: url('./Images/Practice5_bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.first_but{
+
+    padding: 0px 25px 0px 25px;
+    margin-right: 1em;
+    margin-left: 3em;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+
+}
+
+.second_but{
+    padding: 0px 25px 0px 25px;
+    background-color: rgb(34, 76, 80) ;
+    color: white;
+    border: white 2px solid;
+    
+}
+
+#brand_style{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.7em;
+}
+
+#main_body{
+    /* border: solid purple; */
+    width: 60%;
+    margin: auto;
+    margin-top: 160px;
+}
+
+#main_search{
+    color: white;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+#domain_search{
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+#search_box{
+    width: 50%;
+    margin-right: 20px;
+    border: 1px white solid;
+    background-color: transparent;
+    padding: 0.2em;
+}
+
+input::placeholder {
+    font-size: 0.9em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#search_but{
+    padding: 10px 40px 5px 40px;
+    background-color: rgb(34, 76, 80) ;
+    color: white;
+    border: white 1px solid;
+    font-size: 0.9em;
+}
+
+input[type=submit]{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#radio_but{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.radio_style{
+    color: white;
+}
+
